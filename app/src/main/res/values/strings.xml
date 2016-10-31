@@ -3,4 +3,5 @@
     <string name="toCelsius">to Celsius</string>
     <string name="toFahrenheit">to Fahrenheit</string>
     <string name="calculate">Calculate</string>
+    <string name="hint">Temperatura</string>
 </resources>

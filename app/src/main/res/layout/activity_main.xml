@@ -17,23 +17,23 @@
         android:ems="10"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/editText"
-        android:hint="Temperatura" />
+        android:id="@+id/editTextTemperatura"
+        android:hint="@string/hint" />
 
     <RadioButton
         android:text="@string/toCelsius"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/editTextTemperatura"
         android:layout_alignParentStart="true"
-        android:id="@+id/radioButtonCelsius" />
+        android:id="@+id/radioButtonCelsius"/>
 
     <RadioButton
         android:text="@string/toFahrenheit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/radioButtonCelsius"
-        android:id="@+id/radioButtonFahrenheit" />
+        android:id="@+id/radioButtonFahrenheit"/>
 
     <Button
         android:text="@string/calculate"
